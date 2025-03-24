@@ -1,0 +1,38 @@
+[config]
+# RPC (prefer private RPC)
+rpc = https://bsc-dataseed3.ninicoin.io/
+
+# Token contract address
+tokenAddress = 0xd5eaAaC47bD1993d661bc087E15dfb079a7f3C19
+
+# Wrapped BNB address
+bnbAddress = 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
+
+# Router address (PancakeSwap Router)
+routerAddress = 0x10ED43C718714eb63d5aA57B78B54704E256024E
+
+
+# Minimum buy amount
+minAmount = 0.0001
+
+# Maximum buy amount
+maxAmount = 0.0002
+
+# Time interval between buy and sell (in seconds)
+timegapMin = 5
+timegapMax = 9
+
+# Slippage percentage
+slippage = 1
+
+# Buy switch (1 = yes, 0 = no)
+buyopen = 0
+
+# Sell switch (1 = yes, 0 = no)
+sellopen = 1
+
+# Gas price (Gwei)
+gasPrice = 1
+
+# BSCScan API Key
+bscscan_api_key = EYEYZW7CYHVT5DT68VBI4X65UMYGEZK7XG
